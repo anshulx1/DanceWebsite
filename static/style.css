@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* filter: invert(1); */
+    margin: 2px 10px;
+}
+
+#navBar {
+    background-color: #38243370;
+}
+
+#navBar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar li {
+    list-style: none;
+    padding: 9px 20px;
+}
+
+#navBar li a {
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: 'Grechen Fuemen', cursive;
+    color: black;
+}
+
+#navBar li a:hover {
+    font-weight: bold;
+}
+
+#introSection {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    background: center /cover no-repeat url(/static/bg.jpeg);
+    color: rgb(228 173 156);
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 50px;
+}
+
+#introSection div.small {
+    font-size: 30px;
+}
+
+#mission {
+    font-size: 30px;
+    padding: 12px;
+    background-color: rgba(64, 168, 168, 0.76);
+    height: 320px;
+    max-width: 100%;
+}
+
+#mission h2 {
+    font-family: 'Grechen Fuemen', cursive;
+    text-align: center;
+    padding: 4px;
+    font-size: 35px;
+}
+
+.card-box {
+    margin: 30px 2px;
+    display: flex;
+    font-size: 20px;
+}
+
+.card-box img {
+    height: 80px;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 25%;
+    height: 180px;
+    display: inline-block;
+    margin: 21px 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsorsSection {
+    height: 320px;
+    background-color: wheat;
+}
+
+#sponsorsSection h2 {
+    font-family: 'Grechen Fuemen', cursive;
+    text-align: center;
+    padding: 4px;
+    font-size: 35px;
+    text-decoration: underline;
+    color: tomato;
+}
+
+#sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+#sponsors img {
+    height: 120px;
+}
+
+#footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
